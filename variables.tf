@@ -33,3 +33,13 @@ variable "tenant_id" {
     description = "Enter the  tenant ID for application created in Azure AD"
 }
 
+
+variable "username" {
+   description = "Enter User ID for Spark cluster access in Azure"
+}
+
+variable "password" {
+   description = "Enter password for Spark cluster access in Azure"
+}
+
+
